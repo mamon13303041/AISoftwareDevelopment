@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/styles.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="../src/pages/about.html">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <div class="container" id="Hero">
+
+            <h1>Home</h1>
+            <p>This is the home page of my website.</p>
+            <figure>
+                <img src="../src/assets/hero.jpg" alt="Hero Image" width="200">
+                <figcaption>wbs coding school student</figcaption>
+            </figure>
+        </div>
+
+      <div class="container" id="services">
+            <h2>Our Services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente minus aliquid qui amet! Impedit quo non quisquam, quas et nulla adipisci iste debitis consectetur necessitatibus sed veniam dolorum ipsa eaque!</p>
+            <ul>
+                <li>Web Development</li>
+                <li>App Development</li>
+                <li>SEO Optimization</li>
+            </ul>
+        </div>
+
+        <div class="container" id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <input type="date" id="date" name="date">
+                <br>
+                <textarea id="message" name="message" rows="4" cols="50" placeholder="Your message here..."></textarea>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>  
+    </main>
+    <footer></footer>
+</body>
+
+</html>
